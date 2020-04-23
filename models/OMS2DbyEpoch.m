@@ -2,9 +2,8 @@ function a = OMS2DbyEpoch(stimPath,varargin)
 
 %% Created by Ryosuke Tanaka (cleaned up for publication 4/23/20)
 % This function performs a numerical simulation of the inprementation of
-% OMS model of Drosophila LC11 reported in Tanaka & Clark
-% (2020) Curr. Biol. The model architecutre is based on Olveczky et al.
-% (2003) Nature.
+% OMS model reported in Tanaka & Clark (2020) Curr. Biol. 
+% The model architecutre is based on Olveczky et al. (2003) Nature.
 % The funciton takes a path to folders that include visual stimuli (XYT
 % plots) and their metadata, and returns a structure with simulated
 % responses of the model.
